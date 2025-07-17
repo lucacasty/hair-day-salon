@@ -203,4 +203,15 @@ section.maintenance img {
     a {
         width: 94px;
     }
+
+    footer {
+        position: relative;
+    }
+
+    footer div p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 0.8em;
+    }
 }
